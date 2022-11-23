@@ -33,7 +33,7 @@ export const Login = () => {
       return alert('Не удалось авторизоваться');
     }
 
-    if (data.payload.status === 'заблокирован') {
+    if (data.payload.status === 'Заблокирован') {
       return alert('Вы заблокированы');
     }
 
